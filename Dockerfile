@@ -10,7 +10,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /VJ-FILTER-BOT
-WORKDIR /VJ-FILTER-BOT
+RUN mkdir /Xylem-Auto-Filter
+WORKDIR /https://github.com/VJBots/Xylem-Auto-Filter
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
